@@ -63,6 +63,6 @@ impl Counter {
     /// Increments `number` and updates its value in storage.
     pub fn increment(&mut self) {
         let number = self.number.get();
-        self.set_number(number + U256::from(102817));
+        self.set_number(number + U256::from(102818));
     }
 }
